@@ -1,0 +1,49 @@
+html {
+    font-size: 16px;
+    height:100%
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body {
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 100%;
+    border-bottom: .1rem solid black;
+    background-color: #A6E7F5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+p{     
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Josefin Slab", serif;
+}
