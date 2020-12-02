@@ -1,0 +1,156 @@
+html {
+    font-size: 16px;
+    height:100%
+}
+
+body {
+    background-color: white;
+    height:100%;
+}
+h1{
+    font-size: 3rem;
+    padding: 0.75rem;
+    font-family: "Hind", sans-serif;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Josefin Slab", serif;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotouser{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+}
+
+.clicavel {
+    border: .15rem solid black;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    width: 25%;
+    border-radius: .5rem;
+    text-align: center;
+    align-self: flex-end;
+    font-family: "Josefin Slab", serif;
+    background-color: #3DA5FF;
+}
+
+.conversa {
+    border: .15rem solid black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    text-align: center;
+    width: 80%;
+    align-self: center;
+    font-family: "Josefin Slab", serif;
+    background-color: #3DA5FF;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    font-size: 5.5rem;
+    justify-self: center;
+    align-self: center;
+    font-family: "Hind", sans-serif;
+}
+
+.indexclicavel{
+    justify-self: center;
+    align-self: center;
+    border: .15rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 4.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    text-align: center;
+    width: 80%;
+}
+
+.index{
+    background-color: #3DA5FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 100%;
+    border-bottom: .1rem solid black;
+    background-color: #A6E7F5;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+.aba {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+    border-bottom:.15rem solid black;
+}
+
+.abacurta_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20%;
+    border-bottom:.15rem solid black;
+}
+
+.abacurta{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    font-size: 2rem;
+    padding: 0.75rem;
+    text-align: center;
+    font-family: "Josefin Slab", serif;
+}
+
+.setabaixo{
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.on{
+    background-color: #3BFA64;
+}
+.off{
+    background-color: #98A7B5;
+}
